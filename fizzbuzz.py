@@ -44,3 +44,20 @@ Fizz
 Fizz
 Buzz
 """
+amount = int(input("How many numbers shall we print? "))
+fizz = int(input("For multiples of what number shall we print 'Fizz'? "))
+buzz = int(input("For multiples of what number shall we print 'Buzz'? "))
+for a in range(1 , amount + 1):
+    if a % fizz == 0 and a % buzz == 0:
+        print("FizzBuzz")
+    elif a % fizz == 0:
+        print("Fizz")
+    elif a % buzz == 0:
+        print("Buzz")
+    else:
+        print(a)
+   
+    
+
+        
+    
